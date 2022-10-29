@@ -501,6 +501,10 @@ display: inline-block;
   margin-right: 70px;
 }
 
+.footer-social {
+  margin-right: 93px;
+}
+
 .footer-social .social-link {
   fill: var(--primary-color-white);
   background-color: rgba(255, 255, 255, 0.1);
@@ -515,6 +519,10 @@ display: inline-block;
   background-color: var(--accent-color);
 }
 
+.subscribe-email {
+  width: 24px;
+  height: 24px;
+}
 /* Buttom */
 
 .button {
