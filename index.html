@@ -64,6 +64,50 @@
         <button type="button" class="button second button" data-modal-open>Замовити послугу</button>
         <div class="backdrop is-hidden" data-modal>
           <div class="modal">
+            <div class="form">
+                <legend class="form-titel">Залиште свої дані, ми вам передзвонимо</legend>
+              <div class="form-field">
+                <label>
+                  Ім'я
+                  <input class="form-input" type="text" name="username" autofocus>
+                  <svg class="input-icon" width="12" height="12">
+                    <use href="./images/icons.svg#person-black">
+                    </use>
+                  </svg>
+                </label>
+              </div>
+              <div class="form-field">
+                <label>
+                  Телефон
+                  <input class="form-input" type="tel" name="tel">
+                  <svg class="input-icon" width="13" height="13">
+                    <use href="./images/icons.svg#phone-black">
+                    </use>
+                  </svg>
+                </label>
+              </div>
+              <div class="form-field">
+                <label>
+                  Пошта
+                  <input class="form-input" type="email" name="email">
+                  <svg class="input-icon" width="15" height="12">
+                    <use href="./images/icons.svg#email-black">
+                    </use>
+                  </svg>
+                </label>
+              </div>
+              <div class="form-field">
+                <label>
+                  Коментар
+                  <textarea class="coment" name="feedback" cols="30" rows="10" placeholder="Введіть текст"></textarea>
+                </label>
+              </div>
+              <div class="legality">
+                <label><input type="checkbox" /></label>
+                <p>Погоджуюся з розсилкою та приймаю <span>Умови договору</span></p>
+              </div>
+                <button class="button" type="submit">Відправити</button>
+            </form>
             <svg class="icon-close" data-modal-close width="11px" height="11px">
               <use href="./images/icons.svg#close-black">
               </use>

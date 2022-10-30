@@ -251,6 +251,100 @@ header {
 
 }
 
+.form {
+  width: 528px;
+}
+
+.form-titel {
+  margin-top: 40px;
+  margin-bottom: 12px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+.form-field {
+  position: relative;
+  display: block;
+  display: flex;
+  flex-direction: column;
+  margin-left: 41px;
+  margin-right: 39px;
+  margin-bottom: 10px;
+}
+
+.form-input {
+  width: 100%;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 42px;
+  transition: border 250ms var(--timing-function);
+}
+
+.form-input:focus,
+.coment:focus {
+  border: 1px solid var(--accent-color);
+}
+
+.form-input:focus + .input-icon {
+  fill: var(--accent-color);
+}
+
+.input-icon {
+  position: absolute;
+  display: inline-block;
+  width: 18px;
+  height: 23px;
+  top: 23px;
+  left: 15px;
+  transition: fill 250ms var(--timing-function);
+}
+
+.form label {
+  text-align: left;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+  color: var(--primery-text-color);
+  margin-bottom: 4px;
+}
+
+.coment {
+  width: 100%;
+  height: 120px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+  resize: none;
+  transition: border 250ms var(--timing-function);
+}
+
+.legality {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.legality p {
+  font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--primery-text-color);
+}
+
+
 .icon-close {
   position: absolute;
   cursor: pointer;
@@ -262,6 +356,12 @@ header {
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: var(--primary-color-white);
   padding: 5px;
+  transition: fill 250ms var(--timing-function);
+}
+
+.icon-close:hover,
+.icon-close:focus {
+  fill: var(--accent-color);
 }
 /* Features */
 
@@ -548,6 +648,7 @@ display: inline-block;
   line-height: 1.8;
   padding-left: 28px;
 }
+
 .subscribe-email {
   width: 24px;
   height: 24px;
