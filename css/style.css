@@ -519,10 +519,42 @@ display: inline-block;
   background-color: var(--accent-color);
 }
 
+.subscribe {
+  display: flex;
+}
+
+.subscribe input{
+  width: 358px;
+  font-size: 16px;
+  padding-left: 16px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-right: 12px;
+  background-color: var(--footer-order-color);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+}
+
+.button.subscribe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.06em;
+  line-height: 1.8;
+  padding-left: 28px;
+}
 .subscribe-email {
   width: 24px;
   height: 24px;
+  margin-left: 10px;
 }
+
+
 /* Buttom */
 
 .button {
