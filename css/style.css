@@ -266,7 +266,6 @@ header {
   color: var(--title-text-color);
 }
 .form-field {
-  position: relative;
   display: block;
   display: flex;
   flex-direction: column;
@@ -294,13 +293,20 @@ header {
   fill: var(--accent-color);
 }
 
+.input-wrapper {
+  display: block;
+  position: relative;
+}
+
 .input-icon {
   position: absolute;
   display: inline-block;
   width: 18px;
-  height: 23px;
-  top: 23px;
+  height: 18px;
+  top: 50%;
   left: 15px;
+  transform: translateY(-50%);
+
   transition: fill 250ms var(--timing-function);
 }
 
@@ -329,19 +335,15 @@ header {
   transition: border 250ms var(--timing-function);
 }
 
-.legality {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.legality p {
+.legality .legality-label {
   font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-    color: var(--primery-text-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--primery-text-color);
+  margin: 0;
 }
 
 
