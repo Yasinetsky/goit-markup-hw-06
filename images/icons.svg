@@ -84,5 +84,8 @@
 <symbol id="Vector" viewBox="0 0 32 32">
 <path d="M28.444 4.333v23.333h-24.889v-23.333h24.889zM28.444 1h-24.889c-1.956 0-3.556 1.5-3.556 3.333v23.333c0 1.833 1.6 3.333 3.556 3.333h24.889c1.956 0 3.556-1.5 3.556-3.333v-23.333c0-1.833-1.6-3.333-3.556-3.333z"></path>
 </symbol>
+<symbol id="icon-chek" viewBox="0 0 32 32">
+<path fill="#fff" style="fill: var(--color1, #fff); stroke: var(--color1, #fff)" stroke="#fff" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.64" d="M6.263 15.205l-0.22-0.21-3.307 3.132 11.651 11.114 24.477-23.351-3.285-3.134-21.192 20.197-8.124-7.75z"></path>
+</symbol>
 </defs>
 </svg>
