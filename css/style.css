@@ -227,7 +227,7 @@ header {
   line-height: 1.87;
   letter-spacing: 0.06em;
   padding: 10px 32px;
-  min-width: 216px;
+  min-width: 200px;
   border: transparent;
 }
 
@@ -362,7 +362,10 @@ header {
   align-items: center;
   justify-content: center;
   margin-bottom: 30px;
+}
 
+.legality .legality-label a {
+  margin-left: 5px;
 }
  
 .custom-chek {
@@ -382,8 +385,8 @@ header {
   border: 2px solid var(--accent-color);
 }
 
-.form .buton.submit {
-  background-color: #2F303A;
+.buton.submit {
+  width: 200px;
 }
 
 .icon-close {
