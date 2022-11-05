@@ -312,6 +312,9 @@ header {
   position: relative;
 }
 
+ .contract {
+  color: var(--accent-color);
+ }
 .input-icon {
   position: absolute;
   display: inline-block;
@@ -670,6 +673,7 @@ display: inline-block;
 .subscribe input{
   width: 358px;
   font-size: 16px;
+  color: var(--primary-color-white);
   padding-left: 16px;
   padding-top: 15px;
   padding-bottom: 15px;
