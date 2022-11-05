@@ -292,8 +292,8 @@ header {
   width: 100%;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-  padding-top: 14px;
-  padding-bottom: 14px;
+  padding-top: 12px;
+  padding-bottom: 12px;
   padding-left: 42px;
   transition: border 250ms var(--timing-function);
 }
@@ -307,6 +307,10 @@ header {
   fill: var(--accent-color);
 }
 
+.label-name {
+  display: inline-block;
+  margin-bottom: 4px;
+}
 .input-wrapper {
   display: block;
   position: relative;
